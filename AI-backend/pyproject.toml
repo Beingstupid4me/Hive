@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hive-ai-core"
+version = "1.0.0"
+description = "Python AI Core Service for Hive Portfolio SaaS - MS-DAN & Fin-R1 Simulators"
+authors = ["Hive Team"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+pydantic = "^2.5.3"
+numpy = "^1.26.3"
+python-dotenv = "^1.0.0"
+httpx = "^0.26.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
